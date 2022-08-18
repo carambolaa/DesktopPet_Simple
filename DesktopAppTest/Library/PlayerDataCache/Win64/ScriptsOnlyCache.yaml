@@ -531,4 +531,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: E:/GameEngine/UnityProjects/DesktopAppTest/Build/DesktopAppTest.exe
+  playerPath: E:/GameEngine/UnityProjects/DesktopPet_Simple/DesktopAppTest/Build/DesktopAppTest.exe

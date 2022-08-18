@@ -26,7 +26,7 @@ public class FollowCursor : MonoBehaviour
     {
         Vector3 pos = Input.mousePosition;
         pos.z = 100;
-        recTrans.position = Vector3.Lerp(recTrans.position, cam.ScreenToWorldPoint(pos) + offSett, Time.deltaTime);
+        recTrans.position = Vector3.Lerp(recTrans.position, cam.ScreenToWorldPoint(pos) + offSett, 7 * Time.deltaTime);
         Switch();
     }
 

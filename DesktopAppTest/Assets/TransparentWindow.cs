@@ -46,7 +46,7 @@ public class TransparentWindow : MonoBehaviour
     {
         //MessageBox(new IntPtr(0), "Hello World", "Hello Dialog", 0);
 
-#if !UNITY_EDITOR_
+#if !UNITY_EDITOR
         IntPtr hWnd = GetActiveWindow();
 
         MARGINS margins = new MARGINS { cxLeftWidth = -1 };
